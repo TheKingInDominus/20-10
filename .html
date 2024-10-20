@@ -1,0 +1,88 @@
+index.html.
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lô Mấy Gái</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url('URL_HÌNH_ẢNH_CỦA_BẠN') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Lobster', cursive;
+            color: black;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 192, 203, 0.6);
+            animation: fadeIn 3s ease-in;
+        }
+        h1 {
+            font-size: 6em; /* Phóng to chữ */
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
+            animation: bounce 2s infinite alternate;
+        }
+        p {
+            font-size: 3em; /* Phóng to chữ */
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-20px); }
+        }
+        .sticker {
+            position: absolute;
+            width: 100px;
+            animation: moveSticker 10s linear infinite;
+        }
+        @keyframes moveSticker {
+            0% { transform: translate(0, 0); }
+            20% { transform: translate(100vw, 50vh); }
+            40% { transform: translate(50vw, -30vh); }
+            60% { transform: translate(-50vw, 70vh); }
+            80% { transform: translate(-100vw, 20vh); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div>
+        <h1>Thì 20/10 cũng chả quà cáp gì đâu</h1>
+        <p>Viết được mỗi cái code ncc tặng mấy gái</p>
+        <p>Thì chúc mấy gái 20/10 càng ngày càng xinh càng giỏi càng vip hơn ny mới của Ny cũ mấy gái nho</p>
+    </div>
+    
+    <img src="https://th.bing.com/th/id/OIP.UCOR8gm2QE-KcLsCdnMIfQHaHa?rs=1&pid=ImgDetMain" alt="Hình dán 1" class="sticker" style="animation-delay: 0s;">
+    <img src="https://i.pinimg.com/736x/cf/f7/5b/cff75b615292e2d2d0cd4a3cefdff422.jpg" alt="Hình dán 2" class="sticker" style="animation-delay: 1s;">
+    <img src="https://i.pinimg.com/736x/c2/5e/f0/c25ef0f47b3f6fbae059b24218304249.jpg" alt="Hình dán 3" class="sticker" style="animation-delay: 2s;">
+    <img src="https://i.pinimg.com/736x/94/02/2e/94022e9e0008202dfd4a573ee95700c1.jpg" alt="Hình dán 4" class="sticker" style="animation-delay: 3s;">
+    <img src="https://th.bing.com/th/id/OIP.8TkWbpvU4nwXAbR5hRSELgHaNJ?pid=ImgDet&w=188&h=333&c=7" alt="Hình dán 5" class="sticker" style="animation-delay: 4s;">
+    <img src="https://th.bing.com/th/id/OIP.fA-8MkUOF5it_VLj4MXwmQHaHa?pid=ImgDet&w=198&h=198&c=7" alt="Hình dán 6" class="sticker" style="animation-delay: 5s;">
+    <img src="https://th.bing.com/th/id/OIP.UHCx7iv12cXL_MWkCagmEAHaHa?pid=ImgDet&w=198&h=198&c=7" alt="Hình dán 7" class="sticker" style="animation-delay: 6s;">
+    <img src="https://th.bing.com/th/id/OIP.itK1XOmplOZb9uZOGZUGDgAAAA?pid=ImgDet&w=188&h=333&c=7" alt="Hình dán 8" class="sticker" style="animation-delay: 7s;">
+    <img src="https://th.bing.com/th/id/OIP.NqjxcUVqdvsRITlcUks02gHaHW?pid=ImgDet&w=198&h=196&c=7" alt="Hình dán 9" class="sticker" style="animation-delay: 8s;">
+    <img src="https://th.bing.com/th/id/OIP.2id7wtNC7yvhFm9fMyI3iwHaHa?w=496&h=496&rs=1&pid=ImgDetMain" alt="Hình dán 10" class="sticker" style="animation-delay: 9s;">
+    
+    <audio autoplay loop>
+        <source src="https://www.soundjay.com/button/beep-07.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
